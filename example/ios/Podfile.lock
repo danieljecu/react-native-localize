@@ -413,7 +413,7 @@ PODS:
     - React-jsi (= 0.71.3)
     - React-logger (= 0.71.3)
     - React-perflogger (= 0.71.3)
-  - RNLocalize (2.2.7):
+  - RNLocalize (2.2.8):
     - React-Core
   - SocketRocket (0.6.0)
   - Yoga (1.14.0)

@@ -1,6 +1,6 @@
 {
   "name": "@danieljecu/react-native-localize",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "license": "MIT",
   "description": "A toolbox for your React Native app localization. A modified Fork",
   "author": "Catalin Daniel Jecu <daniel@jecu.eu>",
