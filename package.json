@@ -1,10 +1,10 @@
 {
-  "name": "react-native-localize",
-  "version": "2.2.6",
+  "name": "@danieljecu/react-native-localize",
+  "version": "2.2.7",
   "license": "MIT",
-  "description": "A toolbox for your React Native app localization.",
-  "author": "Mathieu Acthernoene <zoontek@gmail.com>",
-  "homepage": "https://github.com/zoontek/react-native-localize",
+  "description": "A toolbox for your React Native app localization. A modified Fork",
+  "author": "Catalin Daniel Jecu <daniel@jecu.eu>",
+  "homepage": "https://github.com/danieljecu/react-native-localize",
   "types": "dist/typescript/index.d.ts",
   "main": "dist/commonjs/index.js",
   "module": "dist/module/index.js",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zoontek/react-native-localize.git"
+    "url": "git+https://github.com/danieljecu/react-native-localize.git"
   },
   "keywords": [
     "react-native-localize",
@@ -75,5 +75,12 @@
     "react-native": "^0.71.3",
     "react-native-builder-bob": "^0.20.4",
     "typescript": "^4.9.5"
+  },
+  "bugs": {
+    "url": "https://github.com/danieljecu/react-native-localize/issues"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example"
   }
 }

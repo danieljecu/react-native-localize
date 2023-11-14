@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.res.Configuration;
 import android.os.Build;
-import android.os.LocaleList;
+import androidx.core.os.LocaleListCompat;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
@@ -124,7 +124,7 @@ public class RNLocalizeModule extends ReactContextBaseJavaModule {
     if (Build.VERSION.SDK_INT < Build.VERSION_CODES.N) {
       locales.add(config.locale);
     } else {
-      LocaleList list = config.getLocales();
+      LocaleListCompat list = LocaleListCompat.getDefault();
 
       for (int i = 0; i < list.size(); i++) {
         locales.add(list.get(i));
