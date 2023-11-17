@@ -1,10 +1,10 @@
 {
-  "name": "react-native-localize",
-  "version": "3.0.3",
+  "name": "@danieljecu/react-native-localize",
+  "version": "3.0.31",
   "license": "MIT",
-  "description": "A toolbox for your React Native app localization.",
-  "author": "Mathieu Acthernoene <zoontek@gmail.com>",
-  "homepage": "https://github.com/zoontek/react-native-localize",
+  "description": "A toolbox for your React Native app localization. A modified Fork",
+  "author": "Catalin Daniel Jecu <daniel@jecu.eu>",
+  "homepage": "https://github.com/danieljecu/react-native-localize",
   "types": "dist/typescript/index.d.ts",
   "main": "dist/commonjs/index.js",
   "module": "dist/module/index.js",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zoontek/react-native-localize.git"
+    "url": "https://github.com/danieljecu/react-native-localize.git"
   },
   "keywords": [
     "react-native-localize",
@@ -49,9 +49,9 @@
     "*": "prettier -u -w"
   },
   "peerDependencies": {
-    "react": ">=18.1.0",
-    "react-native": ">=0.70.0",
-    "react-native-macos": ">=0.70.0"
+    "react": ">=17.0.2",
+    "react-native": ">=0.66.0",
+    "react-native-macos": ">=0.64.0"
   },
   "peerDependenciesMeta": {
     "react-native-macos": {
@@ -59,11 +59,11 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "@types/jest": "^29.5.2",
-    "@types/react": "^18.2.14",
-    "lint-staged": "^13.2.3",
-    "prettier": "^2.8.8",
+    "@babel/core": "^7.21.0",
+    "@types/jest": "^29.4.0",
+    "@types/react": "^18.0.28",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
     "prettier-plugin-organize-imports": "^3.2.2",
     "react": "^18.2.0",
     "react-native": "^0.72.1",
